@@ -1,4 +1,5 @@
 import './App.css'
+import Header from './components/Header'
 
 function App() {
   
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <div className=''>
-        <h1></h1>
+        <Header/>
       </div>
     </>
   )

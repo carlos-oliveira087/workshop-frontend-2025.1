@@ -7,8 +7,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#f0f0f0',
-        secondary: '#252753' 
+        primary: '#ff3131',
+        secondary: '#333330',
+        tertiary: '#f3f3f3' 
       },
       fontFamily: {
         arimo: ['arimo', 'sans-serif'],
