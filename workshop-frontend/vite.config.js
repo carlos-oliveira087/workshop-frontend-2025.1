@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/workshop-frontend/',  // Este deve ser o caminho base do seu repositório GitHub Pages
+  base: '/workshop-frontend/', 
   build: {
-    outDir: 'dist',  // Diretório de saída do build
+    outDir: 'dist',
   },
 });
