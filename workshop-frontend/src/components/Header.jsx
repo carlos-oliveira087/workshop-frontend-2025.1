@@ -10,9 +10,9 @@ function Header() {
                 <div className="absolute left-1/2 top-1 bg-white border-[6px] border-secondary rounded-full w-14 h-14"/>
             </div>
             <div className="flex flex-row gap-7 absolute top-9 left-40 font-medium text-[15px]">
-                <Link to="/" className="text-black">INÍCIO</Link>
-                <Link to="/Booster" className="text-black">MEU BOOSTER</Link>
-                <Link to="/Cards" className="text-black">POKÉDEX</Link>
+                <Link to="/" className="text-black hover:text-primary">INÍCIO</Link>
+                <Link to="/Booster" className="text-black hover:text-primary">MEU BOOSTER</Link>
+                <Link to="/Cards" className="text-black hover:text-primary">POKÉDEX</Link>
   
             </div>
             
