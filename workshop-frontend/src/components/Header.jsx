@@ -1,4 +1,3 @@
-import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
@@ -14,12 +13,9 @@ function Header() {
                 <Link to="/" className="text-black">INÍCIO</Link>
                 <Link to="/Booster" className="text-black">MEU BOOSTER</Link>
                 <Link to="/Cards" className="text-black">POKÉDEX</Link>
-                
+  
             </div>
-            <div className="flex flex-row absolute top-8 right-32 font-medium text-[15px]">
-                <input type="text" className="bg-tertiary w-72 border-2 border-secondary rounded-xl rounded-r-none pl-3"/>
-                <button className="flex justify-center items-center bg-secondary border-2 w-7 border-secondary border-l-0 rounded-xl rounded-l-none text-tertiary"><FaSearch/></button>
-            </div>
+            
         </div>
         
     )

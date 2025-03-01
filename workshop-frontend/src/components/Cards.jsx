@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "./Header";
+import { FaSearch } from "react-icons/fa";
 
 function Cards() {
 
@@ -23,8 +24,15 @@ function Cards() {
     return (
         <div>
             <Header/>
+
             <div className="flex justify-center items-center min-h-screen relative">
-                <div className="my-14 grid grid-cols-4 gap-10">
+
+                <div className="flex flex-row absolute top-8 right-auto font-medium text-[15px]">
+                    <input type="text" className="bg-tertiary w-[700px] h-10 border-2 border-secondary rounded-xl rounded-r-none pl-3" placeholder="Buscar Pokémon por nome"/>
+                    <button className="flex justify-center items-center bg-secondary border-2 w-10 border-secondary border-l-0 rounded-xl rounded-l-none text-tertiary"><FaSearch/></button>
+                </div>
+            
+                <div className="my-28 grid grid-cols-4 gap-10">
                 
                     {card.map((card) => (
                         <div key={card.id} className="bg-white border-2 border-primary rounded-xl w-72 flex flex-col items-center p-5">
