@@ -1,20 +1,19 @@
-import './App.css'
-import Header from './components/Header'
-import LinksSection from './components/LinksSection'
-import Slides from './components/Slides'
+import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import Cards from './components/Cards';
 
 function App() {
-  
-
   return (
-    <>
+    <Router>
       <div className=''>
-        <Header/>
-        <Slides/>
-        <LinksSection/>
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/Cards" element={<Cards/>} />
+        </Routes>
       </div>
-    </>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;
