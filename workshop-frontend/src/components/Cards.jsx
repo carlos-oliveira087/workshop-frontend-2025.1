@@ -41,7 +41,7 @@ function Cards() {
                     <button className="flex justify-center items-center bg-secondary border-2 w-10 border-secondary border-l-0 rounded-xl rounded-l-none text-tertiary hover:bg-primary" onClick={filtrar}><FaSearch/></button>
                 </div>
             
-                <div className="my-28 grid grid-cols-4 gap-10">
+                <div className="my-28 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
                 
                     {filterData.length > 0 ? (
 

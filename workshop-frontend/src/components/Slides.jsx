@@ -34,7 +34,7 @@ function Slides() {
                     </Slider>
                 </div>  
             </div>
-            <div className="absolute flex flex-col items-end right-28 top-28 space-y-7">
+            <div className="hidden sm:flex absolute flex-col items-end right-28 top-28 space-y-7">
                 <h1 className="text-2xl font-bold">Top 5 Pokémons dos treinadores</h1>
                 <div className='flex flex-col w-full'>
                     <img src="/assets/1.png" alt="Pikachu" className="w-40"/>
