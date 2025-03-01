@@ -19,7 +19,7 @@
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1"
   },
-  "homepage": "https://github.com/carlos-oliveira087/workshop-frontend-2025.1",
+  "homepage": "https://carlos-oliveira087.github.io/workshop-frontend-2025.1/",
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/react": "^18.3.18",
