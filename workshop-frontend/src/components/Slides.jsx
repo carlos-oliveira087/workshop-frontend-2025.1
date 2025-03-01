@@ -36,12 +36,12 @@ function Slides() {
             </div>
             <div className="absolute flex flex-col items-end right-28 top-28 space-y-7">
                 <h1 className="text-2xl font-bold">Top 5 Pokémons dos treinadores</h1>
-                <div className='flex flex-col w-full gap-0'>
+                <div className='flex flex-col w-full'>
                     <img src="/assets/1.png" alt="Pikachu" className="w-40"/>
                     <img src="/assets/2.png" alt="Charizard" className="w-40 ml-auto"/>
                     <img src="/assets/3.png" alt="Mewtwo" className="w-40"/>
                     <img src="/assets/4.png" alt="Bulbasaur" className="w-40 ml-auto"/>
-                    <img src="/assets/5.png" alt="Eevee" className="w-40"/>   
+                    <img src="/assets/5.png" alt="Eevee" className="w-40"/> 
                 </div>
                 
             </div>
