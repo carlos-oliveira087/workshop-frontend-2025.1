@@ -20,20 +20,32 @@ function Slides() {
     }
 
     return (
-        <div className="m-4 sm:m-8 md:m-16 rounded-xl p-6 sm:p-8 md:p-9 bg-secondary border-2 border-primary w-full sm:w-[90%] md:w-[700px] h-auto">
-            <div>
-                <Slider {...settings}>
-                    {imgs.map((image, index) => (
-                        <div key={index}>
-                            <a href={image.link} target="_blank" rel="noopener noreferrer">
-                            <img src={image.src} alt={image.alt}/> 
-                            </a>
-                        </div>
-                    ))}
-                </Slider>
-            </div>  
+        <div>
+            <div className="m-16 mt-11 mb-6 rounded-xl p-9 bg-secondary border-2 border-primary w-[700px] h-auto">
+                <div>
+                    <Slider {...settings}>
+                        {imgs.map((image, index) => (
+                            <div key={index}>
+                                <a href={image.link} target="_blank" rel="noopener noreferrer">
+                                <img src={image.src} alt={image.alt}/> 
+                                </a>
+                            </div>
+                        ))}
+                    </Slider>
+                </div>  
+            </div>
+            <div className="absolute flex flex-col items-end right-28 top-28 space-y-7">
+                <h1 className="text-2xl font-bold">Top 5 Pokémons dos treinadores</h1>
+                <div className='flex flex-col w-full gap-0'>
+                    <img src="/assets/1.png" alt="Pikachu" className="w-40"/>
+                    <img src="/assets/2.png" alt="Charizard" className="w-40 ml-auto"/>
+                    <img src="/assets/3.png" alt="Mewtwo" className="w-40"/>
+                    <img src="/assets/4.png" alt="Bulbasaur" className="w-40 ml-auto"/>
+                    <img src="/assets/5.png" alt="Eevee" className="w-40"/>   
+                </div>
+                
+            </div>
         </div>
-        
     )
 }
 
