@@ -4,7 +4,7 @@ import Header from "./Header";
 function Cards() {
 
     const [card, setCard] = useState([]);
-    const limit = 20;
+    const limit = 150;
 
     useEffect (() => {
 
