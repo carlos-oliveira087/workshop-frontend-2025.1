@@ -43,4 +43,4 @@ Nome do Pokémon
 Tipos do Pokémon (por exemplo, "Fogo", "Água", etc.)
 Cada carta é exibida de maneira organizada e responsiva, com o nome e tipos do Pokémon visíveis abaixo da imagem.
 
-Link do Deploy - https://vercel.com/carlos-projects-fa435e71/workshop-frontend-2025-1-zqs9
+Link do Deploy - https://workshop-frontend-2025-1-zqs9.vercel.app/
